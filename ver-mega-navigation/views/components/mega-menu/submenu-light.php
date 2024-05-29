@@ -7,16 +7,16 @@ if ( $data ): ?>
 		<?php if ( $data['submenu'] ) :
 			switch ( $data['submenu'][0]['acf_fc_layout'] ):
 				case 'type_a':
-					get_template_part( 'views/components/mega-menu/submenu-a', '', array( 'data' => $data['submenu'][0] ) );
+					get_template_part( 'views/components/mega-menu/submenu-a-light', '', array( 'data' => $data['submenu'][0] ) );
 					break;
 				case 'type_b':
-					get_template_part( 'views/components/mega-menu/submenu-b', '', array( 'data' => $data['submenu'][0] ) );
+					get_template_part( 'views/components/mega-menu/submenu-b-light', '', array( 'data' => $data['submenu'][0] ) );
 					break;
 				case 'type_c':
-					get_template_part( 'views/components/mega-menu/submenu-c', '', array( 'data' => $data['submenu'][0] ) );
+					get_template_part( 'views/components/mega-menu/submenu-c-light', '', array( 'data' => $data['submenu'][0] ) );
 					break;
 				case 'type_d':
-					get_template_part( 'views/components/mega-menu/submenu-d', '', array( 'data' => $data['submenu'][0] ) );
+					get_template_part( 'views/components/mega-menu/submenu-d-light', '', array( 'data' => $data['submenu'][0] ) );
 					break;
                 default:
                     break;

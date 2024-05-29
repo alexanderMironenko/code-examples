@@ -10,7 +10,7 @@ if ( $megaMenu ): ?>
 						get_template_part( 'views/components/mega-menu/link', '', array('data' => $item) );
 						break;
 					case 'with_submenu':
-						get_template_part( 'views/components/mega-menu/submenu', '', array('data' => $item) );
+						get_template_part( 'views/components/mega-menu/submenu-light', '', array('data' => $item) );
 						break;
                     default:
                         break;
